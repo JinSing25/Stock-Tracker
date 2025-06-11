@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: stock-tracker
+    env: python
+    buildCommand: ""
+    startCommand: "python stock_tracker_app.py"
+    repo: https://github.com/JinSing25/Stock-Tracker
+    branch: main
+    autoDeploy: true
